@@ -1,0 +1,578 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.clearFix{
+    clear: both;
+    padding: 17px;
+}
+ .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .containerHeader{
+     height: 90px;
+     display: flex;
+     align-items: center;
+     
+     width: 974px;
+     justify-content: space-between;
+ }
+
+.buscador{
+    position: relative;
+    align-content: center;
+}
+.buscadorImput{
+    box-sizing: border-box;
+    width: 404px;
+    height: 45px;
+    padding: 25px 19px 19px 25px;
+
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+.buscadorimg{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    margin-left: 5px;
+}
+.logo{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+ #tituloLogo{
+    font-family: 'Rokkitt', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 73px;
+    color: #8B2727;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ .linea1{
+    position: absolute;
+    width: 100%;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 77%;
+ }
+ .linea2{
+    position: absolute;
+    width: 385px;
+    height: 0px;
+    top: 85%;
+    border: 1px solid #000000;
+    margin-left: 10%;
+ }
+ #panelBuscar{
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    
+    background: #8B2727;
+    border-radius: 0px 50px 50px 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: unset;
+}
+ nav{
+    background: #8B2727;
+    padding: 0%;
+    width: 100%;
+    height: 63px;
+ }
+ .ulNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    list-style: none;
+ }
+ .aNav{
+    color: white;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    
+
+     
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+ }
+ .aNav:hover{
+     background: #bd5252;
+ }
+  /*----------------------Carrito----------------------*/
+
+.carritoCompras{
+    margin-left: 40px;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.carritoCompras:hover{
+    background: #bd5252;
+}
+
+#carrito-circulo-grande{
+    width: 55px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    position: absolute;
+}
+
+#carrito-circulo-amarillo{
+    width: 20px;
+    height: 20px;
+    background: #FAFF00;
+    border: 1px solid #000000;
+    filter: blur(3px);
+    border-radius: 100px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+#imgCarrito{
+    position: absolute;
+    z-index: 999;
+}
+  /*----------------------Carrito----------------------*/
+
+
+ #loMasVendido-container{
+    width: 80%;
+     max-width: 1000px;
+     margin: 0% auto;
+     background-color: rgba(207, 150, 150, 0.12);
+    border-radius: 15px;
+    padding: 0px 0px 0px 0px;
+ }
+
+ .logosSecundarios{
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 104px;
+    padding-left: 20px;
+    color: #000000;
+ }
+
+ h5{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 20px;
+ }
+
+  /*----------------------Slider----------------------*/
+  .product{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .product-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    float: left;
+    transition: all .5s ease;
+    transform: translateX(0%);
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+  /*----------------------card----------------------*/
+.product-card{
+    width: calc(100% / 2);
+    position: relative;
+    text-align: center;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.product-img{
+    padding: 0px;
+}
+.product-info{
+    text-align: left;
+}
+.centerBtn{
+    text-align: center;
+}
+.price{
+    padding-top: 10px;
+}
+.btnAddtoList{
+    background: none;
+    border: none;
+    list-style: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    transition: all 0.2s ease;
+    color: black;
+}
+.btnAddtoList:hover{
+    background: lightskyblue;
+    opacity: 0.4;
+    border-radius: 50px;
+}
+
+.pre-btn, 
+.nxt-btn{
+    background: local;
+    border: none;
+    position: absolute;
+    display: block;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.pre-btn{
+    left: 0;
+}
+.nxt-btn{
+    right: 0;
+}
+.pre-btn img, 
+.nxt-btn img{
+    opacity: 0.2;
+}
+.pre-btn img:hover, 
+.nxt-btn img:hover{
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+a{
+    text-decoration: none;
+    color: #0356D2;
+}
+  /*----------------------Slider----------------------*/
+  /*----------------------Mercados y cultura----------------------*/
+.mercados-cultura{
+    width: 100%;
+    position: relative;
+}
+.pnlTopMC{
+    position: absolute;
+    width: 100%;
+    height: 13px;
+    background: #8B2727;
+}
+.pnlBoMC{
+    position: absolute;
+    width: 100%;
+    height: 13px;
+    background: #8B2727;
+    top: 99%;
+}
+#textoMC{
+    position: absolute;
+    font-family: 'Rozha One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 104px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#imgMC{
+    object-fit: contain;
+}
+.degradadoMC{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+/*------------------------Confiar-nosotros---------------------------*/
+#txtConfiar-nosotros{
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 105px;
+    
+    color: #000000;
+
+    width: 100%;
+}
+h3{
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    
+    color: #000000;
+}
+.confiar-nosotros{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.cn-hijos{
+    padding: 10px;
+    margin: 30px;
+    display: inline-block;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.linea-cn{
+    height: 0px;
+    width: 961px;
+    border: 0.5px solid #000000;
+    display: inline-flex;
+}
+/*-----------------------------artesanos-------------------------------*/
+.ad-container-text{
+    position: relative;
+    width: 100%;
+    height: 102px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.fondo-ad{
+    position: absolute;
+    width: 100%;
+    height: 102px;
+    background: rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+    border-radius: 200px 200px 0px 0px;
+}
+#artesanos-destacados{
+    z-index: 999;
+    filter: none;
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 104px;
+    text-align: center;
+    
+    color: #000000;
+}
+.ad-container{
+    width: 100%;
+    height: 812px;
+    left: 0px;
+    top: 2637px;
+
+    background: #8B2727;
+    border-radius: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs-artesanos{
+    margin: 10px;
+    position: relative;
+}
+.artesanos-desc{
+    position: absolute;
+    top: 84%;
+    margin-left: 10px;
+}
+.artesanos-nombres{
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 62px;
+    
+    color: #FFFFFF;
+}
+.artesanos-dir{
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    
+    color: #FFFFFF;
+}
+
+/*-----------------Footer-----------------*/
+
+.footer{
+    position: relative;
+    height: 384px;
+    left: 0px;
+    
+    background: #8B2727;
+    border-radius: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-divs{
+    width: 424px;
+}
+h4{
+    color: white;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+}
+.aFooter{
+    color: white;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+
+     
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+.siguenos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.siguenos-txt{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+#x{
+    background: #bd5252;
+    color: white;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 50px;
+    
+    text-decoration: none;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+    margin: 20px;
+}
+.cont-hijos-sig{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=======================NOSOTROS==========================*/
+.elegirnos-container-principal{
+    text-align: justify;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    width: 80%;
+    max-width: 1000px;
+    margin: 0% auto;
+}
+.porque-elegirnos{
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 104px;
+    
+    color: #000000;
+}
+.preguntas-container{
+    display: flex;
+}
+.preguntas{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.preg{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    
+    color: #000000;
+}
+.linea-roja1, .linea-roja2{
+    width: 100%;
+    height: 10px;
+    background: #8B2727;
+}
+#p-Nosotros{
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    
+    color: #000000;
+}
+.mv-row{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

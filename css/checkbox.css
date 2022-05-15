@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-check{
+    margin: 10px;
+}
+.form-check-label{
+    font-size: 14px;
+}
+.form-check-input:hover{
+    cursor: pointer;
+}

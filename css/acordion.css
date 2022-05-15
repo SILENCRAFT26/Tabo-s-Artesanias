@@ -1,0 +1,60 @@
+.container-left{
+    /* width: 300px;
+    max-width: 600px; */
+    margin-left: 20px;
+    /* position: relative; */
+}
+/*------------*/
+.accordion {
+    background-color: #8B2727;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    width: 400px;
+    max-width: 400px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    border-bottom: 0.5px solid #000000;
+  }
+  .acc-ultimo{
+    border-bottom: none;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #8b3535; 
+  }
+  
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width: 400px;
+    max-width: 400px;
+  }
+.btn-accordion-categoria{
+    background-color: #bd5252;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s;
+    border-bottom: 0.5px solid #000000;
+}
+.btn-accordion-categoria:hover{
+    background-color: #f56e6e;
+    color: #000000;
+}
+#filtrar-prod-txt{
+    margin: 20px 0px 13px 60px;
+    text-align: left;
+}
+
+/* LOS CHECKBOX SE ENCUENTRAN EN OTRO CSS*/

@@ -6,6 +6,10 @@
         <title>Tabo's Artesanias</title>
         <meta name="description" content="">
         <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/slider-range.css">
+        <link rel="stylesheet" href="../css/checkbox.css">
+        <link rel="stylesheet" href="../css/acordion.css">
+        <link rel="stylesheet" href="../css/combobox.css">
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital@1&family=Karla&family=Kaushan+Script&family=Rokkitt:wght@500&display=swap" rel="stylesheet">
        
     </head>
@@ -53,23 +57,79 @@
                     <button class="btn-accordion-categoria">Bisuteria</button>
                     <button class="btn-accordion-categoria">Madera</button>
                 </div>
-                <button class="accordion">Marca</button>
+                <button class="accordion">Hechos en</button>
                 <div class="panel">
-                    <button class="btn-accordion-categoria">Hamacas</button>
-                    <button class="btn-accordion-categoria">Barro</button>
-                    <button class="btn-accordion-categoria">Tejidos</button>
-                    <button class="btn-accordion-categoria">Joyeria en oro y plata</button>
-                    <button class="btn-accordion-categoria">Bisuteria</button>
-                    <button class="btn-accordion-categoria">Madera</button>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Managua
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                         Masaya
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Granada
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Chontales
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Leon
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Managua
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Isla de Ometepe
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Costa Caribe
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Matagalpa
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Rivas
+                        </label>
+                    </div>
                 </div>
                 <button class="accordion acc-ultimo">Precio</button>
                 <div class="panel">
-                    <button class="btn-accordion-categoria">Hamacas</button>
-                    <button class="btn-accordion-categoria">Barro</button>
-                    <button class="btn-accordion-categoria">Tejidos</button>
-                    <button class="btn-accordion-categoria">Joyeria en oro y plata</button>
-                    <button class="btn-accordion-categoria">Bisuteria</button>
-                    <button class="btn-accordion-categoria">Madera</button>
+                    <form>
+                        <div data-role="rangeslider">
+                            <label for="range-1a">Rangeslider:</label>
+                            <input type="range" name="range-1a" id="range-1a" min="0" max="100" value="40">
+                            <label for="range-1b">Rangeslider:</label>
+                            <input type="range" name="range-1b" id="range-1b" min="0" max="100" value="80">
+                        </div>
+                    </form>
                 </div>
             </section>
             
@@ -321,5 +381,6 @@
 
         <script src="/js/acordion.js"></script>
         <script src="/js/masVentas.js"></script>
+        <script src="/js/sliderPrice.js"></script>
     </body>
 </html>

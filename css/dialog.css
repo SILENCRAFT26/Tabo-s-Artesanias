@@ -1,0 +1,146 @@
+dialog::backdrop {
+    background: rgba(179, 176, 176, 0.63);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1px)
+}
+
+
+#this-dialog{
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    width: 661px;
+    height: 302px;
+    position: relative;
+    overflow: visible;
+}
+.container-dialog{
+    width: auto;
+    width: auto;
+}
+.container-dialog-top{
+    width: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.conainer-verde-dialog{
+    width: 581px;
+    height: 50px;
+    
+    background: #DEF1DE;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 17px;
+}
+
+#img-check{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.texto-verde{
+    width: 429px;
+    height: 21px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #68A071;
+}
+
+.btn-cerrar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -20px;
+    top: -20px;
+    
+    background: #FFFFFF;
+    border-radius: 50px;
+    
+}
+#img-btn-cerrar{
+    position: absolute;
+    left: -10px;
+    top: -5px;
+}
+.btn-cerrar:hover,
+#img-btn-cerrar:hover{
+    cursor: pointer;
+} 
+
+.container-dialog-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-dialog-info{
+    margin: 10px;
+}
+.info-prod{
+    font-family: 'Rambla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #436CFC;
+    margin: 5px;
+    width: 32%;
+}
+.container-total{
+    display: grid;
+}
+.linea-resultado{
+    width: 139px;
+    height: 0px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+#total{
+    text-align: center;
+}
+
+.container-dialog-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-vercarrito,
+.btn-finalizarCompra,
+.btn-seguirCompra{
+    width: 161px;
+    height: 32px;
+    color: #FFFFFF;
+    background: #8B2727;
+    border: none;
+
+    font-family: 'Rambla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin: 10px;
+}
+
+.btn-vercarrito:hover,
+.btn-finalizarCompra:hover,
+.btn-seguirCompra:hover{
+    background: #bd5252;
+}
+.fijar-body{overflow:hidden}

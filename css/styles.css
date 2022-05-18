@@ -160,6 +160,17 @@ body{
     position: absolute;
     z-index: 999;
 }
+#carrito-circulo-verde{
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 255, 10, 0.96);
+    border: 1px solid #000000;
+    filter: blur(3px);
+    border-radius: 100px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
   /*----------------------Carrito----------------------*/
 
 
@@ -711,3 +722,291 @@ h4{
     margin: 70px 0px 0px 0px;
 }
 /*========================Artesanos===========================*/
+/*========================Carrito===========================*/
+.container-main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container-tabla{
+    width: auto;
+    height: auto;
+    
+    background: #C4C4C4;
+    display: grid;
+    justify-content: center;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 1000px;
+    margin: 10px;
+}
+
+th, td{
+	padding: 15px;
+}
+
+thead{
+	background: #ffffff;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr td{
+	background: #8B2727;
+    color: white;
+}
+
+.td-der,
+.column-der{
+    background: #C4C4C4;
+}
+.td-der:hover{
+    cursor: pointer;
+    background: white;
+}
+tr:hover td{
+	background: #B55959;
+	color: white;
+}
+#th-1{
+    width: 20px;
+}
+#th-2{
+    width: 220px;
+}
+#th-3{
+    width: 404px;
+}
+#th-4{
+    width: 120px;
+}
+#th-5{
+    width: 120px;
+}
+#th-6{
+    width: 120px;
+}
+.carritoCompras-label{
+    font-family: 'Katibeh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 86px;
+    text-align: center;
+    
+    color: #000000;
+}
+.total{
+    width: 250px;
+    height: 40px;
+    
+    background: #8B2727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 71px 10px 10px;
+}
+.label-total{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+.precio{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    
+    color: #FFC700;
+    margin-right: 30px;
+}
+.container-total{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.btn-Realizar-compra{
+    width: 301px;
+    height: 65px;
+    
+    background: #20A51D;
+    border-radius: 50px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+.btn-Realizar-compra:hover{
+    cursor: pointer;
+    background: #48d145;
+    
+}
+
+.container-bottom{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/*========================Carrito===========================*/
+
+
+#contenedor-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.login{
+    width: 1280px;
+    height: 720px;
+    background: rgba(207, 150, 150, 0.12);
+    overflow: hidden;
+}
+.cont-panel-der{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.panel-der{
+    width: 438px;
+    height: 720px;
+    
+    background: #8B2727;
+}
+#img-ceramica{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 47%;
+    top: 33%;
+}
+.datos-login{
+    position: absolute;
+    left: 18%;
+    top: 33%;
+    width: 400px;
+}
+
+.silueta1{
+    position: absolute;
+    width: 596.73px;
+    height: 141.4px;
+    left: 14%;
+    top: 912.32px;
+    
+    /* rojoMedio */
+    
+    background: #B55959;
+    border-radius: 105.53px;
+    transform: rotate(-41.1deg);
+}
+.silueta2{
+    position: absolute;
+    width: 553.74px;
+    height: 131.21px;
+    left: 15%;
+    top: 895.05px;
+    
+    /* rojo */
+    
+    background: #8B2727;
+    border-radius: 105.53px;
+    transform: rotate(-41.1deg);
+}
+.bienvenido{
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #1A1A1A;
+    margin: 10px;
+}
+.lbls{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+.txt-logins{
+    box-sizing: border-box;
+
+    width: 367px;
+    height: 34px;
+    
+    /* rojo */
+    
+    border: 1px solid #8B2727;
+    border-radius: 50px;
+}
+.btn-login{
+    width: 365px;
+    height: 34px;
+    left: 124px;
+    top: 402px;
+    
+    /* rojo */
+    
+    background: #8B2727;
+    border-radius: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.btn-login:hover{
+    background: #B55959;
+    cursor: pointer;
+}
+.lbls,
+.txt-logins,
+.btn-login,
+.lbl-no-hay-cuenta,
+.iconos-redes{
+    margin: 10px;
+}
+.lbl-no-hay-cuenta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconos-redes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

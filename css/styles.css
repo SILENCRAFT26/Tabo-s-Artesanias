@@ -902,7 +902,7 @@ tr:hover td{
 .datos-login{
     position: absolute;
     left: 18%;
-    top: 33%;
+    top: 30%;
     width: 400px;
 }
 
@@ -1009,4 +1009,24 @@ tr:hover td{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.btns-categoria{
+    margin: 5px;
+    
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #000000;
+}
+.form-check-label{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #000000;
 }
